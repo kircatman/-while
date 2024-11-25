@@ -31,16 +31,16 @@ noll = my_list[4]
 while index < list_len :
     if my_list[index] < 0:
         break
+    elif my_list[index] == 0:
+        index += 1
+        continue
     ploas_number.append(my_list[index])
     index += 1
+
 print(ploas_number)
 
 
 
-for num in ploas_number:
-    if num == 0:
-        continue
-    print(num)
 
 
 
